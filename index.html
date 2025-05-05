@@ -4,147 +4,37 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Embedded Software Developer - Ridvan Kahraman's personal page." />
-	<meta name="keywords" content="Embedded Software, PLC, CODESYS, Ridvan Kahraman, Industrial Automation">
+	<meta name="description" content="Ridvan Kahraman – Embedded Software Developer with expertise in industrial automation, PLC systems, and safety-critical logic design.">
 	<title>Ridvan Kahraman | Embedded Software Developer</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<style>
-		body {
-			font-family: 'Inter', sans-serif;
-			margin: auto;
-			padding: 40px;
-			line-height: 1.6;
-			background: linear-gradient(to right, #dae2f8, #d6a4a4);
-			color: #333;
-			transition: background 0.5s ease-in-out;
-		}
-
-		h1, h2 {
-			color: #2c3e50;
-			text-align: justify;
-			padding-left: 20px;
-		}
-
-		a {
-			color: #007acc;
-			text-decoration: none;
-			transition: color 0.3s ease;
-		}
-
-		a:hover {
-			color: #005f99;
-		}
-
-		p, li {
-			text-align: justify;
-		}
-
-		.card {
-			background: rgba(255, 255, 255, 0.95);
-			padding: 20px;
-			margin: 20px auto;
-			border-radius: 8px;
-			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-			max-width: 700px;
-			transition: transform 0.3s ease, box-shadow 0.3s ease;
-		}
-
-		.card:hover {
-			transform: translateY(-6px) scale(1.02);
-			box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.2);
-		}
-
-		.header-card {
-			background: rgba(255, 255, 255, 0.4);
-			padding: 20px;
-			margin: 20px auto;
-			border-radius: 8px;
-			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-			max-width: 700px;
-			text-align: justify;
-			backdrop-filter: blur(8px);
-			-webkit-backdrop-filter: blur(8px);
-			transition: transform 0.3s ease, box-shadow 0.3s ease;
-		}
-
-		.header-card:hover {
-			transform: translateY(-6px) scale(1.02);
-			box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.2);
-		}
-
-		.name-highlight {
-			color: #2c3e50;
-			font-weight: bold;
-		}
-
-		.icon {
-			margin-right: 8px;
-		}
-
-		.connect-links a {
-			color: #333333;
-			padding-left: 4px;
-		}
-
-		.connect-links a:hover {
-			color: #333;
-			text-decoration: underline;
-		}
-
-		footer {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			padding: 20px;
-			margin-top: 30px;
-			background: rgba(0, 0, 0, 0.1);
-			border-radius: 8px;
-		}
-
-		ul {
-			list-style-type: none;
-			padding-left: 20px;
-		}
-
-		ul li {
-			margin-bottom: 12px;
-		}
-		
-		@media (max-width: 600px) {
-			body {
-				padding: 20px;
-				font-size: 16px;
-			}
-
-			h1 {
-				font-size: 22px;
-			}
-
-			h2 {
-				font-size: 18px;
-			}
-
-			.card {
-				padding: 15px;
-				margin: 10px auto;
-			}
-
-			ul li {
-				font-size: 15px;
-			}
-		}
-	</style>
+	<link rel="stylesheet" href="style.css"> <!-- Harici CSS -->
 </head>
 
 <body>
-	<div class="header-card">
-		<h1><span class="name-highlight">Ridvan Kahraman</span> - From Field to Firmware</h1>
+	<div class="header-card hover-card">
+		<h1><span class="name-highlight">🔥Ridvan Kahraman</span> - From Field to Firmware</h1>
 	</div>
 
-	<div class="card">
+	<div class="card social-icons-card hover-card">
+		<div class="social-icons">
+			<a href="https://www.linkedin.com/in/ridvan-kahraman" class="icon-box" title="LinkedIn Profile">
+				<i class="fab fa-linkedin"></i>
+				<span>LinkedIn</span>
+			</a>
+			<a href="https://github.com/ridvan-kahraman" class="icon-box" title="GitHub Projects">
+				<i class="fab fa-github"></i>
+				<span>GitHub</span>
+			</a>
+			<a href="https://about.me/ridvan-kahraman" class="icon-box" title="About Me Page">
+				<i class="fas fa-globe"></i>
+				<span>AboutMe</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="card hover-card">
 		<h2>🎯 About</h2>
 		<ul>
 			<li>
@@ -157,7 +47,7 @@
 		</ul>
 	</div>
 
-	<div class="card">
+	<div class="card hover-card">
 		<h2>🛠️ Tools & Technologies</h2>
 		<ul>
 			<li><b>Languages - </b>Structured Text, Python, SQL</li>
@@ -167,7 +57,7 @@
 		</ul>
 	</div>
 
-	<div class="card">
+	<div class="card hover-card">
 		<h2>📈 Experience</h2>
 		<ul>
 			<li><b>BELTAŞ Firefighting Technologies - </b>Embedded Software Developer (2025 - Present)<br><span>Developing embedded PLC software for critical firefighting vehicles using CODESYS Environment and CAN protocols.</span></li>
@@ -176,20 +66,11 @@
 		</ul>
 	</div>
 
-	<div class="card">
+	<div class="card hover-card">
 		<h2>🎓 Education & Certification</h2>
 		<ul>
 			<li><b>Marmara University - </b>Electronics and Computer Education - B.Ed. (2010)</li>
 			<li><b>Clarusway - </b>Data Analytics (2022)</li>
-		</ul>
-	</div>
-
-	<div class="card connect-links">
-		<h2>📫 Connect with Me</h2>
-		<ul>
-			<li><i class="fab fa-linkedin icon" aria-hidden="true" style="color:#0077B5;"></i><a href="https://www.linkedin.com/in/ridvan-kahraman" title="LinkedIn Profile">LinkedIn</a></li>
-			<li><i class="fab fa-github icon" aria-hidden="true" style="color:#333333;"></i><a href="https://github.com/ridvan-kahraman" title="GitHub Projects">GitHub</a></li>
-			<li><i class="fas fa-globe icon" aria-hidden="true" style="color:#4d4d4d;"></i><a href="https://about.me/ridvan-kahraman" title="About Me Page">AboutMe</a></li>
 		</ul>
 	</div>
 
